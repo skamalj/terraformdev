@@ -6,3 +6,7 @@ variable "region" {
   type = string
   default = "asia-south1"
 }
+
+variable "project_id" {
+  
+}

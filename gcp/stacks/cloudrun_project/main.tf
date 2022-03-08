@@ -8,12 +8,12 @@ terraform {
 }
 
 provider "google" {
-  project     = "gcdeveloper"
+  project     = var.project_id
   region      = var.region
 }
 
 provider "google-beta" {
-  project     = "gcdeveloper"
+  project     = var.project_id
   region      = var.region
 }
 
