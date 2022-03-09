@@ -18,6 +18,10 @@ variable "branch_name" {
   type = string
   default = "master"
 }
+variable "tag_name" {
+  type = string
+  default = ".*"
+}
 variable "repo_name" {
   type = string
 }

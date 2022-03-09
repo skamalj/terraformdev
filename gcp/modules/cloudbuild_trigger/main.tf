@@ -16,7 +16,7 @@ resource "google_cloudbuild_trigger" "cloudbuild_trigger" {
     service_account = var.service_account_id 
 
     trigger_template {
-      branch_name = var.branch_name
+      tag_name = var.tag_name
       repo_name   = var.repo_name
     }
 
